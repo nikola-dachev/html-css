@@ -1,0 +1,30 @@
+body {
+	Margin: 0px;
+	Padding: 0px;
+	Background-Color: #CCCCCC;
+
+}
+
+li{
+	Display: inline;
+}
+ul{
+	Background-Color: #444;
+	Text-Align: Center;
+	Padding: 0px;
+	Margin: 0px;
+	list-style:none;
+}
+
+li{
+	Size: 24px;
+	Line-Height: 40px;
+	Height: 40px;
+	Padding: 20px;
+	}
+
+a{
+	text-decoration: none;
+	Color: #ffffff;
+}
+
