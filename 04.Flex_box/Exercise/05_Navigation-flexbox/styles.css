@@ -1,0 +1,18 @@
+body {
+    margin: 20px;
+}
+
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type:none;
+    display: flex;
+    color: rgb(0, 153, 0);
+    justify-content: space-around;
+    width: 300px;
+}
