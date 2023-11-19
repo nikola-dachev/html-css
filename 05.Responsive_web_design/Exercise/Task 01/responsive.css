@@ -1,0 +1,38 @@
+
+* {
+	margin: 0;
+	padding:0;
+	box-sizing:border-box;
+}
+body {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+}
+body > * {
+	border-radius: 0.3em;
+	background-color: lightblue;
+	
+}
+
+header, footer {
+	flex: 1 1 100%;
+}
+
+li {
+	list-style: none;
+}
+
+main {
+	flex: 1 1 13%;
+}
+
+aside {
+	flex: 1 1 85%;
+}
+
+@media (max-width: 500px) {
+	body {
+		flex-direction: column;
+	}
+}
