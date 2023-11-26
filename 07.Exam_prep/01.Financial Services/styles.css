@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,400;0,500;1,300;1,400&family=Raleway&display=swap');
+
+html {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    max-width: 1200px;
+    border: 1px solid black;
+    margin: 1em auto;
+    padding: 1em 4em 4em 4em;
+    }
+
+span {
+    color: #579ed4;
+    }
+
+h4 {
+    font-weight: normal;
+    margin-top: -1em;
+    }
+
+a {
+    border-radius: 1.2em;
+    border: 0.1em solid #2a6dc3;
+    display: inline-block;
+    background-color: #327dc4;
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1.5em;
+
+}
+
+.header {
+    text-align: center;
+}
+
+.img {
+    border-radius: 1em;
+    overflow: hidden;
+    display: block;
+    width:100%;
+    hight:auto;
+}
+
+.container-sections {
+    display: flex;
+    gap: 2em;
+
+ }
+.box {
+    flex: 1 1 30%;
+    background-color: #819daf;
+    border-radius: 1em;
+ }
+
+.container-wrapper {
+    padding: 0 1em 1em 1em;
+}
+

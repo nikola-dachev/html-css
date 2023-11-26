@@ -1,0 +1,63 @@
+*/
+#f6f8f9 - celiq konteiner
+#786eff - lilavo na butona
+#d7dbde - pagagrafa 
+#6d757f - zaglavieto 
+
+
+
+body {
+	font-family: Helvetica ,sans-serif;
+	
+}
+
+.enterprise {
+	background-color: #f6f8f9;
+	display:flex;
+	justify-content: space-between;
+	border-radius: 6px;
+	margin: 60px auto;
+	max-width:1000px;
+	align-items: flex-end;
+	padding: 0 24px;
+}
+.container-text {
+	width: 35%;
+	padding: 40px 0;
+	color:#6d757f;
+	
+}
+.first-heading {
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 16px;
+}
+
+.main-heading {
+	font-size: 34px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	
+	
+}
+
+.description {
+	color:#a3aab0;
+	margin-bottom:20px;
+}
+
+.button {
+	border: 1px solid black;
+	border-radius: 2px;
+	padding:8px 16px;
+	margin-right: 10px;
+}
+
+.button.button-primary {
+	background-color: #786eff;
+	color: white;
+}
+
+img {
+	width:30%;
+}
