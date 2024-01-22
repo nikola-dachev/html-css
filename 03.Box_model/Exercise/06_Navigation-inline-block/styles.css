@@ -1,18 +1,23 @@
+
 html {
     font-family: Helvetica, sans-serif;
 }
-header {
-    border: 2px solid;
 
+header {
+	display: flex;
+	align-items: center;
 }
 header h1 {
     text-transform: uppercase;
+	padding-right: 120px;
 
 }
 
 nav li {
     display: inline-block;
     padding-right: 20px;
+	
+	
 }
 
 
@@ -25,7 +30,7 @@ li {
     list-style-type: none;
 }
 
-a:link {
+a {
     text-decoration: none;
     color: green;
 }
